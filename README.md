@@ -1,11 +1,11 @@
 # Google_Scholar_Scrawler
 ## Introduction
 This is a final project of SI507 from University of Michigan
-This project aims to develop a web scraper that extracts information about scholars from Google Scholar. The scraper will take a list of scholars' names as input and will search for each name on Google Scholar using Python and Selenium. The extracted information will include the scholar's name, their publications, citations, h-index, i-10 index, and total publications. The information will be stored in a CSV file for further analysis.
+This project aims to develop a web scraper that extracts information about scholars from Google Scholar. The scraper will take a list of scholars' names as input and will search for each name on Google Scholar using Python and Selenium. The extracted information will include the scholar's name, their publications, citations, h-index, i-10 index, and total publications. The information will be stored in a CSV file and a tree structure for further analysis.
 
 ## Methodology
 
-As Google Scholar does not provide a public API, the web scraper will be built using Python and Selenium to scrape data from the HTML documents of Google Scholar search results. The scraper will use the lxml module and regular expressions to process the HTML documents and extract the desired information. To speed up subsequent searches, the scraper will store a cache of previously searched information in a CSV file. The information retrieved will also be stored in a tree structure to optimize search efficiency.
+As Google Scholar does not provide a public API, the web scraper will be built using Python and Selenium to scrape data from the HTML documents of Google Scholar search results. The scraper will use the lxml module and regular expressions to process the HTML documents and extract the desired information. To speed up subsequent searches, the scraper will store a cache of previously searched information in a CSV file. The information retrieved will also be stored in a tree structure to optimize search efficiency, based on whether fields of a person is above the avergae or not.
 
 ## Usage:
 
