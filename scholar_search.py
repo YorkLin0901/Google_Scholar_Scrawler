@@ -23,12 +23,12 @@ lis=[]
 for i in range(100):
     url = scholar_id_dict['url'][i]
     y = scholar_id_dict['name'][i] # name
-    print(y)
+#     print(y)
     x = url.split('=')[-1]
-    print(x)
+#     print(x)
     try:
         res = get_scholar_data(ids=x,name=y)
-        print(res)
+#         print(res)
         lis.append(res)
     except:
         pass
