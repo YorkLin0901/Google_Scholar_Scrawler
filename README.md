@@ -1,6 +1,6 @@
 # Google_Scholar_Scrawler
 ## Introduction
-
+This is a final project of SI507 from University of Michigan
 This project aims to develop a web scraper that extracts information about scholars from Google Scholar. The scraper will take a list of scholars' names as input and will search for each name on Google Scholar using Python and Selenium. The extracted information will include the scholar's name, their publications, citations, h-index, i-10 index, and total publications. The information will be stored in a CSV file for further analysis.
 
 ## Methodology
